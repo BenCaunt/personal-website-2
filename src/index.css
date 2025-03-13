@@ -11,5 +11,5 @@ body {
 }
 
 ::selection {
-  @apply bg-purple-200;
+  @apply bg-yellow-100/70;
 }

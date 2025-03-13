@@ -68,12 +68,12 @@ function App() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-100 via-purple-100 to-pink-100">
+    <div className="min-h-screen bg-gradient-to-br from-yellow-50/70 via-yellow-50 to-yellow-100/50">
       {/* Navigation */}
       <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolling ? 'bg-white/80 backdrop-blur-md shadow-lg' : 'bg-transparent'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
-            <span className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+            <span className="text-2xl font-bold bg-gradient-to-r from-yellow-600 to-yellow-400 bg-clip-text text-transparent">
               BC
             </span>
             <div className="hidden md:flex space-x-8">
@@ -81,8 +81,8 @@ function App() {
                 <a
                   key={item}
                   href={`#${item.toLowerCase()}`}
-                  className={`text-gray-700 hover:text-purple-600 transition-colors ${
-                    activeSection === item.toLowerCase() ? 'text-purple-600 font-semibold' : ''
+                  className={`text-gray-700 hover:text-yellow-600 transition-colors ${
+                    activeSection === item.toLowerCase() ? 'text-yellow-600 font-semibold' : ''
                   }`}
                 >
                   {item}
@@ -96,7 +96,7 @@ function App() {
       {/* Hero Section */}
       <section id="hero" className="min-h-screen flex items-center justify-center pt-16">
         <div className="text-center">
-          <h1 className="text-6xl font-bold mb-6 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+          <h1 className="text-6xl font-bold mb-6 bg-gradient-to-r from-yellow-600 to-yellow-400 bg-clip-text text-transparent">
             Ben Caunt
           </h1>
           <p className="text-2xl text-gray-700 mb-4">Co-Founder, Full Stack Developer, & Robotics Enthusiast</p>
@@ -115,7 +115,7 @@ function App() {
               href="https://github.com/BenCaunt" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="text-gray-600 hover:text-purple-600 transition-colors"
+              className="text-gray-600 hover:text-yellow-600 transition-colors"
             >
               <Github size={24} />
             </a>
@@ -123,7 +123,7 @@ function App() {
               href="https://www.linkedin.com/in/ben-caunt" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="text-gray-600 hover:text-purple-600 transition-colors"
+              className="text-gray-600 hover:text-yellow-600 transition-colors"
             >
               <Linkedin size={24} />
             </a>
@@ -131,7 +131,7 @@ function App() {
               href="https://x.com/bdcauntben" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="text-gray-600 hover:text-purple-600 transition-colors"
+              className="text-gray-600 hover:text-yellow-600 transition-colors"
             >
               <svg 
                 viewBox="0 0 24 24" 
@@ -146,7 +146,7 @@ function App() {
             </a>
             <a 
               href="mailto:bdcaunt@gmail.com" 
-              className="text-gray-600 hover:text-purple-600 transition-colors"
+              className="text-gray-600 hover:text-yellow-600 transition-colors"
             >
               <Mail size={24} />
             </a>
@@ -163,13 +163,13 @@ function App() {
       {/* About Section */}
       <section id="about" className="min-h-screen flex items-center justify-center py-16">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+          <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-yellow-600 to-yellow-400 bg-clip-text text-transparent">
             About Me
           </h2>
           <div className="grid md:grid-cols-2 gap-12">
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
-                <User className="text-purple-600 mt-1" />
+                <User className="text-yellow-600 mt-1" />
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Who I Am</h3>
                   <p className="text-gray-700">
@@ -178,16 +178,16 @@ function App() {
                 </div>
               </div>
               <div className="flex items-start space-x-4">
-                <Code className="text-purple-600 mt-1" />
+                <Code className="text-yellow-600 mt-1" />
                 <div>
                   <h3 className="text-xl font-semibold mb-2">What I Do</h3>
                   <p className="text-gray-700">
-                    I work to align the incentives of the software industry to focus on creating simple, component, and trusted software to run the world.  
+                    I work to align the incentives of the software industry to focus on creating simple, compotent, and trusted software to run the world.  
                   </p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
-                <Briefcase className="text-purple-600 mt-1" />
+                <Briefcase className="text-yellow-600 mt-1" />
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Experience</h3>
                   <p className="text-gray-700">
@@ -208,9 +208,9 @@ function App() {
       </section>
 
       {/* Robotics Background Section */}
-      <section id="robotics" className="min-h-screen flex items-center justify-center py-16 bg-gradient-to-br from-purple-50 to-indigo-50">
+      <section id="robotics" className="min-h-screen flex items-center justify-center py-16 bg-gradient-to-br from-yellow-50/50 to-yellow-50/80">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+          <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-yellow-600 to-yellow-400 bg-clip-text text-transparent">
             Robotics Background
           </h2>
           <div className="grid md:grid-cols-2 gap-12">
@@ -244,7 +244,7 @@ function App() {
       {/* Projects Section */}
       <section id="projects" className="min-h-screen py-16">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+          <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-yellow-600 to-yellow-400 bg-clip-text text-transparent">
             Featured Projects
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -265,7 +265,7 @@ function App() {
                     {project.tags.map((tag, tagIndex) => (
                       <span
                         key={tagIndex}
-                        className="px-3 py-1 bg-purple-100 text-purple-600 rounded-full text-sm"
+                        className="px-3 py-1 bg-yellow-50 text-yellow-600 rounded-full text-sm"
                       >
                         {tag}
                       </span>
@@ -276,7 +276,7 @@ function App() {
                       href={project.link} 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="inline-flex items-center text-purple-600 hover:text-purple-800"
+                      className="inline-flex items-center text-yellow-600 hover:text-yellow-800"
                     >
                       <Github size={16} className="mr-1" />
                       View on GitHub
@@ -292,7 +292,7 @@ function App() {
       {/* Contact Section */}
       <section id="contact" className="min-h-screen flex items-center justify-center py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-12 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+          <h2 className="text-4xl font-bold mb-12 bg-gradient-to-r from-yellow-600 to-yellow-400 bg-clip-text text-transparent">
             Get In Touch
           </h2>
           <p className="text-xl text-gray-700 mb-8">
@@ -300,7 +300,7 @@ function App() {
           </p>
           <a
             href="mailto:bdcaunt@gmail.com"
-            className="inline-flex items-center px-6 py-3 bg-purple-600 text-white rounded-full hover:bg-purple-700 transition-colors"
+            className="inline-flex items-center px-6 py-3 bg-yellow-600 text-white rounded-full hover:bg-yellow-700 transition-colors"
           >
             <Mail className="mr-2" size={20} />
             Send me an email
@@ -310,7 +310,7 @@ function App() {
               href="https://github.com/BenCaunt"
               target="_blank"
               rel="noopener noreferrer" 
-              className="text-gray-600 hover:text-purple-600 transition-colors"
+              className="text-gray-600 hover:text-yellow-600 transition-colors"
             >
               <Github size={28} />
             </a>
@@ -318,7 +318,7 @@ function App() {
               href="https://www.linkedin.com/in/ben-caunt"
               target="_blank"
               rel="noopener noreferrer" 
-              className="text-gray-600 hover:text-purple-600 transition-colors"
+              className="text-gray-600 hover:text-yellow-600 transition-colors"
             >
               <Linkedin size={28} />
             </a>
@@ -326,7 +326,7 @@ function App() {
               href="https://x.com/bdcauntben"
               target="_blank"
               rel="noopener noreferrer" 
-              className="text-gray-600 hover:text-purple-600 transition-colors"
+              className="text-gray-600 hover:text-yellow-600 transition-colors"
             >
               <svg 
                 viewBox="0 0 24 24" 
