@@ -99,7 +99,7 @@ function App() {
           <h1 className="text-6xl font-bold mb-6 bg-gradient-to-r from-yellow-600 to-yellow-400 bg-clip-text text-transparent">
             Ben Caunt
           </h1>
-          <p className="text-2xl text-gray-700 mb-4">Full Stack Developer, & Robotics Enthusiast</p>
+          <p className="text-2xl text-gray-700 mb-4">Full Stack Developer & Robotics Enthusiast</p>
           <div className="flex items-center justify-center mb-8">
             <p className="text-xl text-gray-700">
               Co-founder at WarmHub where we create the tools needed to build a world powered by trusted software.
