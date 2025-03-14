@@ -99,13 +99,8 @@ function App() {
           <h1 className="text-6xl font-bold mb-6 bg-gradient-to-r from-yellow-600 to-yellow-400 bg-clip-text text-transparent">
             Ben Caunt
           </h1>
-          <p className="text-2xl text-gray-700 mb-4">Co-Founder, Full Stack Developer, & Robotics Enthusiast</p>
+          <p className="text-2xl text-gray-700 mb-4">Full Stack Developer, & Robotics Enthusiast</p>
           <div className="flex items-center justify-center mb-8">
-            <img 
-              src="/images/warmhub_logo (1).svg" 
-              alt="Warmhub Logo" 
-              className="h-8 mr-3"
-            />
             <p className="text-xl text-gray-700">
               Co-founder at WarmHub where we build the infrastructure to empower a world of trust.
             </p>
