@@ -198,7 +198,7 @@ function App() {
             </div>
             <div className="relative">
               <img
-                src="/images/dinner_photo.jpg"
+                src="/images/profile_picture.jpg"
                 alt="Profile"
                 className="rounded-lg shadow-xl"
               />
