@@ -102,7 +102,7 @@ function App() {
           <p className="text-2xl text-gray-700 mb-4">Full Stack Developer, & Robotics Enthusiast</p>
           <div className="flex items-center justify-center mb-8">
             <p className="text-xl text-gray-700">
-              Co-founder at WarmHub where we build the infrastructure to empower a world of trust.
+              Co-founder at WarmHub where we create the tools needed to build a world powered by trusted software.
             </p>
           </div>
           <div className="flex justify-center space-x-4">
