@@ -217,7 +217,7 @@ function App() {
               />
               <h3 className="text-xl font-semibold mb-2">FIRST Tech Challenge</h3>
               <p className="text-gray-700">
-                Throughout highschool I competed in the FIRST Tech Challenge and FIRST Robotics compeition.  In 2022 I was fortunate to be 1 of 20 students to win the Dean's List Award at the World Championship in Houston Texas. 
+                Throughout highschool I competed in the FIRST Tech Challenge and FIRST Robotics competition.  In 2022 I was fortunate to be 1 of 20 students to win the Dean's List Award at the World Championship in Houston Texas. 
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
