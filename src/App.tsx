@@ -226,7 +226,7 @@ function App() {
                 alt="Go2 and Frogbot"
                 className="w-full h-64 object-cover rounded-lg mb-6"
               />
-              <h3 className="text-xl font-semibold mb-2">Current Robotics Platforms</h3>
+              <h3 className="text-xl font-semibold mb-2">Modern Robotics Development Stack</h3>
               <p className="text-gray-700">
                 My current projects utilize the Unitree Go2 quadruped robot (left) and my custom wheeled robot testbed called Frog (right).
                 These platforms allow me to develop and test cutting-edge robotics algorithms and computer vision techniques.
