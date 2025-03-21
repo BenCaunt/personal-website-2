@@ -186,7 +186,7 @@ function App() {
       </motion.nav>
 
       {/* Hero Section */}
-      <section id="hero" className="min-h-screen flex items-center justify-center pt-16 px-6 md:px-4 relative">
+      <section id="hero" className="min-h-[80vh] flex flex-col justify-center pt-24 sm:pt-28 md:pt-32 px-6 md:px-4 relative">
         <ParallaxBackground>
           <div className="text-center">
             <AnimateOnScroll animation="fadeIn" duration={0.8}>
@@ -197,13 +197,7 @@ function App() {
             <AnimateOnScroll animation="slideUp" delay={0.2} duration={0.8}>
               <p className="text-xl md:text-2xl text-gray-700 mb-4">Full Stack Developer & Robotics Enthusiast</p>
             </AnimateOnScroll>
-            <AnimateOnScroll animation="slideUp" delay={0.4} duration={0.8}>
-              <div className="flex items-center justify-center mb-8">
-                <p className="text-lg md:text-m text-gray-700">
-                  Co-founder at WarmHub where we build the infrastructure needed to create a world powered by trusted software.
-                </p>
-              </div>
-            </AnimateOnScroll>
+
             <AnimateOnScroll animation="slideUp" delay={0.6} duration={0.8}>
               <div className="flex justify-center space-x-4">
                 <a 
@@ -247,12 +241,12 @@ function App() {
                 </a>
               </div>
             </AnimateOnScroll>
-            <AnimateOnScroll animation="fadeIn" delay={1.0} duration={1.0}>
+            <AnimateOnScroll animation="fadeIn" delay={0.4} duration={0.4}>
               <a
                 href="#about"
-                className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce"
+                className="absolute bottom-10 sm:bottom-12 md:bottom-16 left-1/2 transform -translate-x-1/2 animate-bounce"
               >
-                <ChevronDown size={32} className="text-gray-600" />
+                <ChevronDown size={28} className="text-gray-600" />
               </a>
             </AnimateOnScroll>
           </div>
@@ -295,7 +289,8 @@ function App() {
                   <div>
                     <h3 className="text-xl font-semibold mb-2">Experience</h3>
                     <p className="text-gray-700">
-                      Medical device prototyping, robotics software, and full-stack web development.
+                      Medical device prototyping, robotics software, and full-stack web development.  I'm a Co-founder at WarmHub where we build the infrastructure needed to create a world powered by trusted software.
+
                     </p>
                   </div>
                 </div>
