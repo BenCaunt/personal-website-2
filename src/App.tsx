@@ -202,40 +202,6 @@ function App() {
         </div>
       </section>
 
-      {/* Robotics Background Section */}
-      <section id="robotics" className="min-h-screen flex items-center justify-center py-16 bg-gradient-to-br from-yellow-50/50 to-yellow-50/80">
-        <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-yellow-600 to-yellow-400 bg-clip-text text-transparent">
-            Robotics Background
-          </h2>
-          <div className="grid md:grid-cols-2 gap-12">
-            <div className="bg-white p-6 rounded-lg shadow-lg">
-              <img
-                src="/images/FTC_robot_still.jpeg"
-                alt="FTC Robot"
-                className="w-full h-64 object-cover rounded-lg mb-6"
-              />
-              <h3 className="text-xl font-semibold mb-2">FIRST Tech Challenge</h3>
-              <p className="text-gray-700">
-                Throughout highschool I competed in the FIRST Tech Challenge and FIRST Robotics competition.  In 2022 I was fortunate to be 1 of 20 students to win the Dean's List Award at the World Championship in Houston Texas. 
-              </p>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-lg">
-              <img
-                src="/images/Go2AndFrogbot.png"
-                alt="Go2 and Frogbot"
-                className="w-full h-64 object-cover rounded-lg mb-6"
-              />
-              <h3 className="text-xl font-semibold mb-2">Modern Robotics Development Stack</h3>
-              <p className="text-gray-700">
-                My current projects utilize the Unitree Go2 quadruped robot (left) and my custom wheeled robot testbed called Frog (right).
-                These platforms allow me to develop and test cutting-edge robotics algorithms and computer vision techniques.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Projects Section */}
       <section id="projects" className="min-h-screen py-16">
         <div className="max-w-6xl mx-auto px-4">
@@ -280,6 +246,40 @@ function App() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Robotics Background Section */}
+      <section id="robotics" className="min-h-screen flex items-center justify-center py-16 bg-gradient-to-br from-yellow-50/50 to-yellow-50/80">
+        <div className="max-w-6xl mx-auto px-4">
+          <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-yellow-600 to-yellow-400 bg-clip-text text-transparent">
+            Robotics Background
+          </h2>
+          <div className="grid md:grid-cols-2 gap-12">
+            <div className="bg-white p-6 rounded-lg shadow-lg">
+              <img
+                src="/images/FTC_robot_still.jpeg"
+                alt="FTC Robot"
+                className="w-full h-64 object-cover rounded-lg mb-6"
+              />
+              <h3 className="text-xl font-semibold mb-2">FIRST Tech Challenge</h3>
+              <p className="text-gray-700">
+                Throughout highschool I competed in the FIRST Tech Challenge and FIRST Robotics competition.  In 2022 I was fortunate to be 1 of 20 students to win the Dean's List Award at the World Championship in Houston Texas. 
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-lg">
+              <img
+                src="/images/Go2AndFrogbot.png"
+                alt="Go2 and Frogbot"
+                className="w-full h-64 object-cover rounded-lg mb-6"
+              />
+              <h3 className="text-xl font-semibold mb-2">Modern Robotics Development Stack</h3>
+              <p className="text-gray-700">
+                My current projects utilize the Unitree Go2 quadruped robot (left) and my custom wheeled robot testbed called Frog (right).
+                These platforms allow me to develop and test cutting-edge robotics algorithms and computer vision techniques.
+              </p>
+            </div>
           </div>
         </div>
       </section>
