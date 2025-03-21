@@ -289,7 +289,7 @@ function App() {
                   <div>
                     <h3 className="text-xl font-semibold mb-2">Experience</h3>
                     <p className="text-gray-700">
-                      Medical device prototyping, robotics software, and full-stack web development.  I'm a Co-founder at WarmHub where we build the infrastructure needed to create a world powered by trusted software.
+                      I'm a Co-founder at WarmHub where we build the infrastructure needed to create a world powered by trusted software.  In the past I worked on perception software for surgical robots.  
 
                     </p>
                   </div>
