@@ -7,9 +7,25 @@ html {
 }
 
 body {
-  @apply antialiased;
+  @apply font-sans antialiased bg-midnight text-slate-100;
+  background-image: radial-gradient(circle at 8% 20%, rgba(37, 99, 235, 0.22), transparent 55%),
+    radial-gradient(circle at 92% 10%, rgba(56, 189, 248, 0.2), transparent 50%),
+    linear-gradient(180deg, rgba(15, 23, 42, 0.94), rgba(15, 23, 42, 0.88));
+  min-height: 100vh;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 0),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 0);
+  background-size: 40px 40px;
+  mask-image: radial-gradient(circle at center, rgba(255, 255, 255, 0.65), transparent 65%);
+  opacity: 0.35;
 }
 
 ::selection {
-  @apply bg-yellow-100/70;
+  @apply bg-sky-200/60 text-slate-900;
 }

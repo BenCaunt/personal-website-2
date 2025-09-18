@@ -7,6 +7,8 @@ interface VideoProps {
   alt: string;
 }
 
+const imagePattern = /\.(gif|jpe?g|png|svg|webp)$/i;
+
 const Video: React.FC<VideoProps> = ({ src, className = '', alt }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -15,7 +17,7 @@ const Video: React.FC<VideoProps> = ({ src, className = '', alt }) => {
   };
 
   const ExpandIcon = () => (
-    <div className="absolute top-2 right-2 bg-black bg-opacity-50 rounded-full p-1.5 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+    <div className="absolute top-3 right-3 rounded-full border border-white/10 bg-white/10 p-1.5 text-white opacity-0 backdrop-blur group-hover:opacity-100 transition-opacity">
       <svg 
         className="w-4 h-4" 
         fill="none" 
@@ -32,15 +34,15 @@ const Video: React.FC<VideoProps> = ({ src, className = '', alt }) => {
     </div>
   );
 
-  // If it's a GIF, render as an image
-  if (src.endsWith('.gif')) {
+  // Render static imagery formats without the video tag for compatibility
+  if (imagePattern.test(src)) {
     return (
       <>
         <div className="relative group cursor-pointer" onClick={handleClick} title="Click to expand">
           <img
             src={src}
             alt={alt}
-            className={`${className} hover:opacity-90 transition-opacity`}
+            className={`${className} rounded-2xl border border-white/10 bg-slate-900/80 object-cover shadow-inner hover:brightness-110 transition-all duration-500`}
             loading="lazy"
             width="800"
             height="450"
@@ -68,7 +70,7 @@ const Video: React.FC<VideoProps> = ({ src, className = '', alt }) => {
           loop
           muted
           playsInline
-          className={`${className} hover:opacity-90 transition-opacity`}
+          className={`${className} rounded-2xl border border-white/10 bg-slate-900/80 object-cover shadow-inner hover:brightness-110 transition-all duration-500`}
           width="800"
           height="450"
         >

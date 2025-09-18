@@ -11,9 +11,9 @@ interface GradientAccentProps {
 
 const GradientAccent: React.FC<GradientAccentProps> = ({
   position = 'top-right',
-  color1 = 'rgba(59, 130, 246, 0.4)',
-  color2 = 'rgba(59, 130, 246, 0.1)',
-  size = 600,
+  color1 = 'rgba(59, 130, 246, 0.5)',
+  color2 = 'rgba(14, 165, 233, 0.22)',
+  size = 700,
   opacity = 0.4
 }) => {
   // Set position based on prop

@@ -7,7 +7,7 @@ interface SectionTransitionProps {
 }
 
 const SectionTransition: React.FC<SectionTransitionProps> = ({ 
-  color = 'from-yellow-50/50 to-yellow-100/30', 
+  color = 'from-sky-500/18 via-transparent to-transparent', 
   position = 'bottom' 
 }) => {
   return (

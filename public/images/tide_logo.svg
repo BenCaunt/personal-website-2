@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Tide Robotics SDK</title>
+  <desc id="desc">Abstract ocean wave background with the word Tide</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e40af" />
+    </linearGradient>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <linearGradient id="text" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ecfeff" />
+      <stop offset="100%" stop-color="#e0f2fe" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#0ea5e9" flood-opacity="0.35" />
+    </filter>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)" />
+  <g opacity="0.35">
+    <path d="M0 250 Q 120 220 220 260 T 440 250 T 640 260 V 360 H 0 Z" fill="#38bdf8" />
+    <path d="M0 270 Q 160 230 320 260 T 640 260 V 360 H 0 Z" fill="#0ea5e9" />
+  </g>
+  <g filter="url(#shadow)">
+    <text x="50%" y="55%" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="108" font-weight="700" fill="url(#text)">tide</text>
+    <text x="50%" y="70%" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="28" letter-spacing="6" fill="#bae6fd">ROBOTICS SDK</text>
+  </g>
+</svg>

@@ -12,8 +12,8 @@ interface MovingGridProps {
 
 const MovingGrid: React.FC<MovingGridProps> = ({
   color = 'rgba(59, 130, 246, 0.08)',
-  dotColor = 'rgba(59, 130, 246, 0.25)',
-  opacity = 0.7,
+  dotColor = 'rgba(56, 189, 248, 0.2)',
+  opacity = 0.45,
   size = 60,
   dotSize = 4,
   speed = 0.02
